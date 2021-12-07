@@ -1,0 +1,104 @@
+body{
+  background: #001821;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #FFFFFF;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+ul li {
+list-style: none;
+}
+
+h1 h2 h3 h4 h5 h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1141px;
+}
+.header {
+  position: relative;
+  height: 80px;
+  margin-bottom: 121px;
+}
+.logo {
+  display: block;
+  position: absolute;
+  top: 29px;
+  left: 0px;
+}
+
+.menu {
+  position: absolute;
+  top: 42px;
+  left: 164px;
+}
+.menu__list-item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 54px;
+}
+.menu__link {
+  font-size: 14px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.menu__link:hover {
+  color: #DA0100;
+
+}
+
+.header__contacts {
+  position: absolute;
+  top: 26.64px;
+  right: 0px;
+  font-style: normal;
+  text-align: right;
+}
+.header__contacts-tel {
+  font-size: 26px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.contacts__dropdonw-title {
+  text-decoration: underline;
+  font-size: 16px;
+  color: #98A4A8;
+}
+.contacts__dropdonw-title:hover {
+  color: #FFFFFF
+}
+
+.hero__text-section {
+  width: 511px;
+}
+.hero__title {
+  font-size: 72px;
+  line-height: 84px;
+  margin-bottom: 27.5px;
+}
+.hero__subtitle {
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 33.5;
+}
+
+.buttom {
+  background: #F5170E;
+  border-radius:35px;
+  color: #FFFFFF;
+  padding: 18px 40px;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+}
