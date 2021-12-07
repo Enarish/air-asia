@@ -42,12 +42,17 @@ h1 h2 h3 h4 h5 h6 {
   position: absolute;
   top: 42px;
   left: 164px;
+  margin-bottom: 246px;
 }
 .menu__list-item {
   display: inline-block;
   vertical-align: middle;
   margin-right: 54px;
 }
+.menu__list-item: last-child {
+  margin-right: 0;
+}
+
 .menu__link {
   font-size: 14px;
   color: #FFFFFF;
