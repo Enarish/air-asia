@@ -107,3 +107,28 @@ h1 h2 h3 h4 h5 h6 {
   font-size: 14px;
   text-transform: uppercase;
 }
+
+.main__body {
+  margin-top: 246px;
+}
+.tours {
+  position: relative;
+}
+.tours__header {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 51px;
+}
+.tours-img {
+  position: absolute;
+  left: 285px;
+}
+.tours__header-title {
+  font-size: 36px;
+  position: absolute;
+  width: 273px;
+  left: 0px;
+}
+.tours__body {
+  margin-top: 51px;
+}
