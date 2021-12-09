@@ -6,6 +6,7 @@ body{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #FFFFFF;
+  margin: 0px;
 }
 
 ul {
@@ -42,15 +43,14 @@ h1 h2 h3 h4 h5 h6 {
   position: absolute;
   top: 42px;
   left: 164px;
-  margin-bottom: 246px;
 }
 .menu__list-item {
   display: inline-block;
   vertical-align: middle;
   margin-right: 54px;
 }
-.menu__list-item: last-child {
-  margin-right: 0;
+.menu__list-item:last-child{
+  margin: 0;
 }
 
 .menu__link {
@@ -95,7 +95,7 @@ h1 h2 h3 h4 h5 h6 {
 .hero__subtitle {
   font-size: 18px;
   line-height: 20px;
-  margin-bottom: 33.5;
+  margin-bottom: 33.5px;
 }
 
 .buttom {
@@ -116,18 +116,14 @@ h1 h2 h3 h4 h5 h6 {
 }
 .tours__header {
   display: inline-block;
-  position: relative;
   margin-bottom: 51px;
 }
 .tours-img {
-  position: absolute;
-  left: 285px;
+  display: inline-block;
 }
 .tours__header-title {
   font-size: 36px;
-  position: absolute;
-  width: 273px;
-  left: 0px;
+  display: inline-block;
 }
 .tours__body {
   margin-top: 51px;
