@@ -112,7 +112,6 @@ h1 h2 h3 h4 h5 h6 {
   margin-top: 246px;
 }
 .tours {
-  position: relative;
 }
 .tours__header {
   display: inline-block;
@@ -127,4 +126,65 @@ h1 h2 h3 h4 h5 h6 {
 }
 .tours__body {
   margin-top: 51px;
+}
+
+.tours__list-itm{
+  display: inline-block;
+  width: 362px;
+  background: #FFFFFF;
+  margin-right: 27px;
+}
+.tours__list-itm:last-child{
+  margin: 0px;
+}
+.tours__title{
+  font-size: 24px;
+  color: #000;
+  margin-top: 33px;
+  margin-left: 22px;
+}
+.tours__date{
+  display: inline-block;
+  margin-left: 28px;
+}
+.tours__date-img{
+  display: inline-block;
+}
+.tours__date-content{
+  display: inline-block;
+  color: #666666;
+  font-size: 16px;
+  margin-right: 28px;
+}
+.tours__date-content:last-child{
+  margin: 0px;
+}
+.tours__menu{
+  display: inline-block;
+}
+.tours__menu-content{
+  display: inline-block;
+  color: #666666;
+}
+.tours__content{
+  color:#303030;
+  font-size: 14px;
+  margin-left: 22px;
+}
+.tours__buttom{
+  border-width: 1px solid;
+  padding: 18px 29px 18px 30px;
+  border-radius: 35px;
+  border-color: #F5170E;
+  background: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #F5170E;
+  margin-left: 24px;
+  margin-bottom: 26px;
+}
+.tours__buttom:hover{
+  color: #FFFFFF;
+  background: #F5170E;
 }
