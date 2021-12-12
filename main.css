@@ -219,7 +219,7 @@ h1 h2 h3 h4 h5 h6 {
   position: absolute;
   top: 252.5px;
   left: 30px;
-  margin-bottom: 26px;
+  bottom: 26px;
 }
 .news__date{
   font-size: 14px;
