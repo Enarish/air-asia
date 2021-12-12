@@ -215,26 +215,25 @@ h1 h2 h3 h4 h5 h6 {
 .news__list-itm:last-child{
   margin-right: 0px;
 }
-.news__date{
+.news__content{
   position: absolute;
   top: 252.5px;
   left: 30px;
+  margin-bottom: 26px;
+}
+.news__date{
   font-size: 14px;
   margin-bottom: 12.5px;
 }
 .news__subtitle{
-  position: absolute;
-  top: 286px;
-  left: 30px;
   font-size: 24px;
-  margin-bottom: 3.5px;
+  margin-bottom: 3px;
 }
 .news__content-text{
-  position: absolute;
-  top: 325.5px;
   left: 30px;
   font-size: 16px;
 }
+
 .paginator__display{
   display: inline-block;
   font-size: 16px;
@@ -256,15 +255,17 @@ h1 h2 h3 h4 h5 h6 {
   font-size: 16px;
   color: #fff;
   text-decoration: none;
+  border: 1px solid;
+  border-color: transparent;
+  padding: 5px 11px;
+  border-radius: 50%;
+  background-color: transparent;
 }
 .paginator__item-link:last-child{
   margin: 0;
 }
 .paginator__item-link:hover{
   color: #F5170E;
-  border: 1px solid;
-  border-color: #fff;
-  padding: 5px 11px;
-  border-radius: 50%;
   background: #FFFFFF;
+  border-color: #fff;
 }
